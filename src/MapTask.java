@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MapTask {
@@ -15,7 +16,6 @@ public class MapTask {
                 map.put(str.charAt(i), 1);
             }
         }
-
         System.out.println(map);
 
 
